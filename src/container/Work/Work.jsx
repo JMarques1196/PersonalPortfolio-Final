@@ -16,6 +16,7 @@ const Work = () => {
     const query = '*[_type == "works"]';
 
     client.fetch(query).then((data) => {
+      console.log(data)
       setWorks(data);
       setFilterWork(data); // we give data object to both states
     });
@@ -40,7 +41,7 @@ const handleWorkFilter = (item) => {
 // Backticks are template literals, can be used to place variables or js expressions inside strings
   return (
     <>
-     <h2 className='head-text'>My Creative <span>Portfolio</span></h2>
+     <h2 className='head-text'>My Personal <span>Projects</span></h2>
      <div className='app__work-filter'>
         {// We will map each item into the filter function
         ['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
@@ -105,6 +106,7 @@ const handleWorkFilter = (item) => {
     </>
   )
 }
+
 
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
