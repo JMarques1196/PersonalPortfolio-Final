@@ -15,7 +15,7 @@ const Header = () => {
         <div className='header__text'>
          <h1 className='title'>My name is <span className='highlight'>João</span>.</h1>
          <h2 className='subtitle'>I'm a <span className='highlight'>Web Developer</span>.</h2>
-         <p className='subtitle'>Here you will get to find out more about me.</p>
+         <p className='subtitle'>In this Portfolio you will find out more about myself and my skills.</p>
         </div>
 
 

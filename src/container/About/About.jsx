@@ -18,7 +18,7 @@ const About = () => {
 // No need for anything in the dependency array since we only want to run it at the start
   return (
     <>
-      <h2 className='head-text'>I Know That <span>Good Design</span><br/>Means <span>Good Business</span></h2>
+      <h2 className='head-text'>About <span>Me</span></h2>
       <div className='app__profiles'>
         {abouts.map((about, index) =>(
           <motion.div
