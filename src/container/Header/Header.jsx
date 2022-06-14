@@ -13,7 +13,7 @@ const Header = () => {
       className='app__header-img' 
       >
         <div className='header__text'>
-         <h1 className='title'>My name is <span className='highlight'>João</span>.</h1>
+         <h1 className='title'>My name is <span className='highlight'>André</span>.</h1>
          <h2 className='subtitle'>I'm a <span className='highlight'>Web Developer</span>.</h2>
          <p className='subtitle'>In this Portfolio you will find out more about myself and my skills.</p>
         </div>

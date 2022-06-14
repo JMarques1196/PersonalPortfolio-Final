@@ -45,8 +45,8 @@ const Footer = () => {
           <a href="jmarquesuw@gmail.com" className="p-text">jmarquesuw@gmail.com</a>
         </div>
         <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+351935357361" className="p-text">+351 935357361</a>
+          <img src={images.linkedin} alt="phone" />
+            <a href="https://www.linkedin.com/in/andre-marques11/" className="p-text" target='blank' rel='noref'>Linkedin</a>
         </div>
       </div>
       {!isFormSubmitted ? (
