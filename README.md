@@ -1,13 +1,13 @@
-#Personal Portfolio
+Personal Portfolio
 
 Repo for my personal Portfolio!
 
-#Languages Used:
+Languages Used:
 * React
 * SCSS
 * Sanity for CMS
 
-#Contents:
+Contents:
 
 * Contact Info
 * Personal Projects
