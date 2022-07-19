@@ -1,6 +1,5 @@
-Personal Portfolio
-
-Repo for my personal Portfolio!
+# Personal Portfolio
+## Repo for my personal Portfolio!
 
 Languages Used:
 * React
